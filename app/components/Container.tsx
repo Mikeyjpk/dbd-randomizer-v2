@@ -12,6 +12,7 @@ const Container: React.FC<ContainerProps> = ({
             max-w-2xl
             min-w-sm
             mx-auto
+            select-none
         ">
             {children}
         </div>
