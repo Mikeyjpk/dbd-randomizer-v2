@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className={`h-screen bg-neutral-950 px-2 ${ openSidebar ? 'w-60' : 'width-20'}`}>
             <div className={`flex flex-col gap-y-3 mt-1 ${openSidebar ? 'items-start' : 'items-center'} ${openSidebar ? 'ml-1' : ''} `}>
                 <div 
-                    onClick={() => toggleOpen()}
+                    onClick={toggleOpen}
                     className="
                         flex 
                         items-center 
